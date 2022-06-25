@@ -1,6 +1,6 @@
 [build]
   command = "npx pnpm@7 install --store-dir=.pnpm --frozen-lockfile && npx pnpm@7 build"
-  publish = "dist"
+  publish = "projects/app/dist"
 
 [build.environment]
   NPM_FLAGS="--version"
